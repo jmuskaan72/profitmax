@@ -62,7 +62,7 @@ regressor.OLS= sm.OLS(endog= y, exog= X_opt).fit()
 regressor.OLS.summary()
 X_opt= X[:, [0,3,5]]
 regressor.OLS= sm.OLS(endog= y, exog= X_opt).fit()
-regressor.OLS.summary()
+regressor.OLS.summary() 
 X_opt= X[:, [0,3]] 
 regressor.OLS= sm.OLS(endog= y, exog= X_opt).fit()
 regressor.OLS.summary()
